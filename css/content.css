@@ -107,7 +107,6 @@ body {
     z-index: 2;
 }
 
-
 .eye {
     width: 800px;
     position: absolute;
@@ -116,10 +115,9 @@ body {
 }
 
 .casino_base {
-    position: absolute;
     display: flex;
     align-items: flex-end;
-    top: 732px;
+    margin-top: 215px;
 }
 
 .left_col {
@@ -140,13 +138,92 @@ body {
     height: 800px; 
 }
 
+.author {
+    color: #F0A738;
+    position: absolute;
+    top: 745px;
+    margin-left: 45px;
+    font-family: 'BebasNeue Regular';
+    font-size: 98px;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    line-height: 80px;
+    text-align: center;
+    letter-spacing: -30px;
+    text-shadow: 1px 1px 10px #F0A738;
+}
 
+.yc {
+    position: absolute;
+    top: 715px;
+    margin-left: 3px;
+}
+
+.casino_atr {
+    position: absolute;
+    top: 1421px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.casino {
+    font-family: 'BebasNeue Bold';
+    line-height: 150px;
+    font-size: 200px;
+    letter-spacing: 25px;
+    color: #E33424;
+    text-shadow: 1px 1px 15px #E33424;
+    margin-left: 25px;
+    margin-top: 10px;
+}
+
+.hrs {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 26px;
+}
+
+.left_hr {
+    width: 395px;
+    border: 15px solid #E33424;
+    margin-top: 40px;
+}
+
+.center_hr {
+    width: 560px;
+    border: 15px solid #E33424;
+}
+
+.right_hr {
+    margin-top: 40px;
+    width: 395px;
+    border: 15px solid #E33424;
+}
+
+.y_hr {
+    width: 580px;
+    border: 5px solid #F0A738;
+    position: absolute;
+    top: 1612px;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.open {
+    font-family: 'BebasNeue Regular';
+    font-size: 50px;
+    position: absolute;
+    top: 1890px;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
 
 .second_block {
-    display: block;
+    position: relative;
     background: #E33424;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding: 40px 0px;
 }
 
 .jackpot {
@@ -164,55 +241,54 @@ body {
     margin: 10px;
 }
 
-.slot_machine {
-    top: 2410px;
+.machine_texts {
     position: absolute;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    top: 155px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.slot_machine {
     font-family: 'BebasNeue Regular';
     font-size: 120px;
     color: #F0A738;
     text-shadow: 1px 1px 10px #F0A738;
-    margin: 0;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%)
 }
 
 .win {
-    position: absolute;
-    top: 2690px;
     color: #E33424;
     font-family: 'BebasNeue Bold';
+    margin: 110px  0px 0px 25px;
     font-size: 200px;
     letter-spacing: 60px;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    padding-left: 30px;
+}
+
+.ticket, .cash {
+    font-family: 'BebasNeue Regular';
+    font-size: 40px;
+    color: white;
+}
+
+.ticket_cash {
+    position: absolute;
+    display: flex;
+    top: 624px;
 }
 
 .ticket {
-    font-family: 'BebasNeue Regular';
-    font-size: 40px;
-    color: white;
-    position: absolute;
-    top: 2830px;
-    margin-left: 555px;
+    margin-left: 550px;
 }
 
 .cash {
-    font-family: 'BebasNeue Regular';
-    font-size: 40px;
-    color: white;
-    position: absolute;
-    top: 2830px;
-    margin-left: 810px;
+    margin-left: 165px;
 }
 
 table {
-    position: absolute;
+    margin-top: 160px;
     text-align: left;
-    top: 3240px;
-    left: 50%;
-    transform: translate(-50%, -50%);
     font-family: 'BebasNeue Regular';
     font-size: 100px;
     color: black;
@@ -220,7 +296,7 @@ table {
 }
 
 th {
-    padding-right: 140px;
+    padding-right: 95px;
 }
 
 .r {
@@ -238,10 +314,8 @@ caption {
 }
 
 .third_block {
-    display: block;
     background-color: black;
-    padding-top: 40px;
-    padding-bottom: 80px;
+    padding: 40px 50px 80px 50px;
 }
 
 .osobennosti {
@@ -249,30 +323,36 @@ caption {
     text-align: center;
 }
 
-.ruletka {
-    margin-left: -3px;
+.aa {
+    display: flex;
+    flex-direction: column; 
 }
 
 .fishka1 {
-    position: absolute;
-    margin-top: 80px;
+    margin-bottom: 22px;
 }
 
-.fishka2 {
-    position: absolute;
-    margin-top: 530px;
+.ruletka{
+    align-self: center;
 }
 
-.fishki {
+.bb {
+    margin-top: 100px;
     display: flex;
     justify-content: space-between;
-    padding: 20px 55px 0px 55px;
+}
+
+.c {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 22px;
 }
 
 h1 {
     font-family: 'BebasNeue Regular';
     font-size: 128px;
     color: white;
+    text-align: center;
 }
 
 .fourth_block {
@@ -342,4 +422,356 @@ h1 {
 .cube3 {
     margin-left: 500px;
     margin-top: 20px;
+}
+
+.fifth_block {
+    position: relative;
+    background: #147C52;
+}
+
+.eight_one {
+    display: flex;
+    flex-direction: row;
+}
+
+.two_three {
+    display: flex;
+    flex-direction: row;
+}
+
+.eight {
+    margin-left: 215px;
+}
+
+.one {
+    padding-top: 178px;
+}
+
+.two {
+    margin: -100px 0px 0px 111px;
+}
+
+.three {
+    margin: 121px 0px 75px 143px;
+}
+
+.fifth_block p {
+    font-family: 'BebasNeue Bold';
+    color: black;
+    font-size: 250px;
+}
+
+.eight_p {
+    position: absolute;
+    left: 415px;
+    top: 235px;
+    rotate: -30deg;
+}
+
+.one_p {
+    position: absolute;
+    left: 970px;
+    top: 301px;
+    rotate: 175deg;
+}
+
+.two_p {
+    position: absolute;
+    left: 290px;
+    top: 897px;
+    rotate: 45deg;
+}
+
+.three_p {
+    position: absolute;
+    left: 973px;
+    top: 990px;
+    rotate: 107deg;
+}
+
+.kii {
+    position: absolute;
+    left: 623px;
+    top: 600px; 
+}
+
+.sixth_block {
+    position: relative;
+    margin: 40px 42px 80px 42px;
+}
+
+.cards div {
+    background: white;
+    width: 254px;
+    height: 390px;
+}
+
+.cards {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ace_chervi p{
+    font-family: 'BebasNeue Thin';
+    color: #E33424;
+    font-size: 128px;
+}
+
+.ace_chervi {
+    margin: 15px 0px 0px 15px;
+    display: flex;
+}
+
+.ace_c2 {
+    align-self: flex-end;
+    rotate: 180deg;
+    margin-top: 255px;
+    margin-left: 3px;
+}
+
+.ace_chervi img {
+    align-self: center;
+}
+
+.ace_piki p{
+    font-family: 'BebasNeue Light';
+    color: black;
+    font-size: 128px;
+}
+
+.ace_piki {
+    margin: 15px 0px 0px 47px;
+    display: flex;
+}
+
+.ace_p2 {
+    align-self: flex-end;
+    rotate: 180deg;
+    margin-top: 255px;
+    margin-left: 3px;
+}
+
+.ace_piki img {
+    align-self: center;
+}
+
+.ace_bubi p{
+    font-family: 'BebasNeue Book';
+    color: #E33424;
+    font-size: 128px;
+}
+
+.ace_bubi {
+    margin: 15px 0px 0px 52px;
+    display: flex;
+}
+
+.ace_b2 {
+    align-self: flex-end;
+    rotate: 180deg;
+    margin-top: 255px;
+    margin-left: 3px;
+}
+
+.ace_bubi img {
+    align-self: center;
+    margin: 0px 2px 0px 2px;
+}
+
+.six_piki p{
+    font-family: 'BebasNeue Regular';
+    color: black;
+    font-size: 128px;
+}
+
+.six_piki {
+    margin: 15px 0px 0px 55px;
+    display: flex;
+}
+
+.six_p2 {
+    align-self: flex-end;
+    rotate: 180deg;
+    margin-top: 255px;
+    margin-left: 3px;
+}
+
+.six_piki img {
+    align-self: center;
+    margin: 0px 6px 0px 6px;
+}
+
+.ten_kresti p{
+    font-family: 'BebasNeue Bold';
+    color: black;
+    font-size: 128px;
+}
+
+.ten_kresti {
+    margin: 20px 0px 0px 40px;
+    display: flex;
+}
+
+.ten_k2 {
+    align-self: flex-end;
+    rotate: 180deg;
+    margin-top: 242px;
+    margin-left: -40px;
+}
+
+.ten_kresti img {
+    align-self: center;
+    margin-left: -30px;
+}
+
+.cards_p {
+    position: absolute;
+    display: flex;
+    top: 155px;
+}
+
+.seventh_block {
+    position: relative;
+    background: black;
+}
+
+.menu_glass {
+    display: flex;
+}
+
+.seventh_block table {
+    position: absolute;
+    margin: 175px 0px 0px 120px;
+    text-align: left;
+    font-family: 'BebasNeue Regular';
+    font-size: 64px;
+    color: rgb(255, 255, 255);
+    line-height: 80px;
+}
+
+.seventh_block th {
+    padding-right: 40px;
+}
+
+.seventh_block caption {
+    font-family: 'BebasNeue Bold';
+    font-size: 128px;
+    color: white;
+    margin-bottom: 35px;
+}
+
+.hit {
+    font-family: 'BebasNeue Bold';
+}
+
+.menu {
+    margin: -150px 90px 0px 43px;
+}
+
+.glass {
+    padding-top: 200px;
+    z-index: 1;
+}
+
+.wine {
+    margin-top: -512px;
+    z-index: 2;
+}
+
+.olivka {
+    position: absolute;
+    left: 1100px;
+    top: 100px;
+    z-index: 3;
+}
+
+.seventh_block p {
+    position: absolute;
+    font-family: 'BebasNeue Bold';
+    font-size: 200px;
+    color: white;
+    z-index: 3;
+}
+
+.co {
+    top: 410px;
+    left: 1084px;
+}
+
+.u {
+    top: 425px;
+    left: 1040px;
+    rotate: -50.8deg;
+}
+
+.m {
+    top: 318px;
+    left: 1142px;
+    rotate: 48.72deg;
+}
+
+.w {
+    top: 467px;
+    left: 1137px;
+    rotate: 14deg;
+}
+
+.eighth_block {
+    position: relative;
+    margin-top: 90px;
+}
+
+.money_col {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 600px 40px 0px 40px;
+}
+
+.money1 {
+    position: absolute;
+    top: 258px;
+    left: 84px;
+}
+
+.money2 {
+    position: absolute;
+    top: 464px;
+    left: 539px;
+}
+
+.money3 {
+    position: absolute;
+    top: 258px;
+    left: 999px;
+}
+
+
+.money4 {
+    position: absolute;
+    top: 870px;
+    left: 40px;
+}
+
+.money5 {
+    position: absolute;
+    top: 912px;
+    left: 458px;
+}
+
+.name_group {
+    font-family: 'BebasNeue Regular';
+    font-size: 64px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 34px 34px 20px 40px;
 }
